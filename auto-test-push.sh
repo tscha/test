@@ -9,7 +9,7 @@ echo "##########################################################################
 echo ""
 echo ""
 
-python3 -m pytest --cov=.
+#python -m pytest --cov=.
 
 if [  "$?" = "0" ]; then
     echo ""
