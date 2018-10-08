@@ -35,8 +35,8 @@ else
     echo "########################################### Test fail ################################################"
     echo ""
     echo ""
+  exit 1
 
-    ./auto-repo-change-check.sh
 fi
 
-./auto-repo-change-check.sh
+./auto-repo-change-check.sh  
